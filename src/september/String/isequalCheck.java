@@ -19,5 +19,27 @@ public class isequalCheck {
 
 
         // is greater than or less thann
+
+        char ch = 'a';
+        int d = ch;
+        System.out.println(d);
+
+
+        String s5 = "Shasank";
+        char charcterAt = s5.charAt(3);
+//        System.out.println(charcterAt);
+//        String s6="sandeep kumar mc";
+//        System.out.println(s6.indexOf(" "));
+//        System.out.println(s6.indexOf("mc"));
+//        System.out.println(s6.substring(4,9));
+//        System.out.println(s6.substring(4));
+
+
+        // replace string
+        String string1 = "I am kishan upadhyay";
+        String replaceString = string1.replace('a','I');
+
+        System.out.println(replaceString);
+
     }
 }

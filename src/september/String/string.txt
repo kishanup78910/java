@@ -13,3 +13,14 @@ s1.isey
         // toc check start with
         System.out.println(s1.startsWith("Ki"));
         System.out.println(s2.endsWith("h"));
+
+
+  //charAt -  to get single character
+
+  index. of
+
+
+  // substring
+
+
+// replace string
