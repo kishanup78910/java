@@ -1,0 +1,15 @@
+String method
+// isEqual
+startswith
+endswith
+compare to rturn positve in case is big or small in case of negative
+// returnt the ascii value
+s1.isey
+
+   System.out.println(s1.equals(s2));
+        System.out.println(s2.equals(s3));
+
+
+        // toc check start with
+        System.out.println(s1.startsWith("Ki"));
+        System.out.println(s2.endsWith("h"));
