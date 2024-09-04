@@ -41,5 +41,21 @@ public class isequalCheck {
 
         System.out.println(replaceString);
 
+        String sh = " Kishan upadhyay ";
+        System.out.println(sh);
+
+        System.out.println(sh.trim());
+        System.out.println(sh.toLowerCase());
+        System.out.println(sh.toUpperCase());
+
+        System.out.println(20.5f+sh);
+        int num = 20;  // Use `int` instead of `let` for declaring an integer in Java
+        float price = 75.5f;
+        int amount = 100;
+        String s10 = String.valueOf(num);
+        String s11 = String.valueOf(amount);
+
+        System.out.println(s10+s11);
+
     }
 }

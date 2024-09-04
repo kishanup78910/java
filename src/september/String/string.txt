@@ -24,3 +24,17 @@ s1.isey
 
 
 // replace string
+
+trime method remove extra space
+
+
+to changess text to lower and uppercase
+
+
+valueof -
+The valueOf method in Java is used to convert a given data type to a String. It is a static method available in the String class. The valueOf method can take different types of arguments, such as int, float, double, char, boolean, or an object, and returns the corresponding String representation of that argument.
+
+String buffer and string builder   - bydefault 16 character space
+aapend method
+
+insertn method
