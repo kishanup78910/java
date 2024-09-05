@@ -38,3 +38,24 @@ String buffer and string builder   - bydefault 16 character space
 aapend method
 
 insertn method
+
+In Java, StringBuffer and StringBuilder are classes that provide mutable sequences of characters,
+ allowing you to modify strings without creating new objects every time.
+
+ common method method
+ append(): Adds a string representation to the existing sequence.
+ insert(): Inserts a string at a specified index.
+ delete(): Removes characters between specified indices.
+ reverse(): Reverses the sequence.
+ length(): Returns the current length of the sequence.
+ capacity(): Returns the current capacity of the sequence.
+
+
+Thread Safety:
+
+StringBuffer: It is thread-safe. All its methods are synchronized, meaning that only one thread can access a method of a StringBuffer object at a time. This ensures thread safety in a multithreaded environment, preventing data corruption.
+StringBuilder: It is not thread-safe. Methods are not synchronized, so it is faster in single-threaded applications. However, in a multithreaded environment, you would need to manually synchronize it if multiple threads are modifying it at the same time.
+Performance:
+
+StringBuffer: Due to synchronization, StringBuffer is slower than StringBuilder in single-threaded contexts.
+StringBuilder: Since it doesn't have the overhead of synchronization, StringBuilder is faster and more efficient in single-threaded scenarios.
